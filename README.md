@@ -1,2 +1,11 @@
-# Sledge-v1
-Simple HTTP request tool I built to learn Python networking.  Send GET requests to a URL, get status codes back. Nothing fancy, just works.  ## Features  - Send multiple requests to any URL - Shows response status (200 = good, 400 = bad) - Hard cap at 10 requests so you dont accidentally DoS something - Minimal and clean output
+# SLEDGE v2.0
+
+**SLEDGE** is a lightweight recon tool that combines website status checking, web scraping, and hidden path discovery. Built from scratch for learning and ethical testing.
+
+---
+
+## Features
+
+- Website Status Scanner - Send multiple requests to check if sites are alive (max 10 requests for safety)
+- Web Scraper - Extract all links from a webpage and save them to `data.json`
+- Hidden Path Finder - Scan for common admin panels, backup files, and hidden directories using a custom wordlist
